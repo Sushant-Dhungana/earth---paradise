@@ -215,6 +215,12 @@
     .tab button {
       width: 150px;
     }
+    .contact_details_main {
+      justify-content: flex-start;
+    }
+    .location_map iframe {
+      height: 250px;
+    }
   }
   @media (max-width:510px) {
     .associated_col {

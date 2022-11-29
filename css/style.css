@@ -1466,6 +1466,77 @@ padding-top: 4px;
   .book_form .book_button:hover {
     background-color:#18dbcb;
   }
+  .contact_head {
+    text-align: center;
+    margin-top: 2% !important;
+  }
+  .contact_head h4 {
+    color: #3019BC;
+  }
+  .contact_head p {
+    margin-top: -2%;
+    font-size: 18px;
+  }
+
+  .contact_form {
+    text-align: center;
+    border: 1px solid rgb(168, 164, 164);
+    padding-bottom: 2%;
+    border-radius: 10px;
+  }
+  .contact_form input {
+    width: 80%;
+    margin-top: 2%;
+    height: 40px;
+    border: 1px solid #706f6c;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  .contact_form textarea {
+    width: 80%;
+    height: 60px;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  .contact_form button {
+    background-color: #E4964B;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2%;
+    width: 120px;
+  }
+  .contact_form button:hover {
+    background-color:#18dbcb;
+  }
+  .contact_details {
+    margin-top: 2% !important;
+  }
+  .contact_details h4 {
+    text-align: left;
+    color: #3019BC;
+  }
+  .contact_details_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .contact_details_main i {
+    padding-top: 3%;
+  }
+  .contact_info {
+    padding-left: 5%;
+  }
+  .location_map {
+    margin-top: 2% !important;
+  }
+  .location_map iframe {
+    width: 100%;
+  }
 
 
 
