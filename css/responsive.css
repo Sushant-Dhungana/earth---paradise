@@ -1,0 +1,227 @@
+
+
+@media (max-width:1250px){
+  .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .above_image_package {
+    left: 83%;
+  }
+  .counter_last .counter {
+    margin-top: -28% !important; 
+    margin-left: 20%;
+  }
+
+}
+
+@media (max-width: 991px) {
+    .navbar {
+      background-color: #3C82EC;
+      height: fit-content;
+    }
+    .navbar-brand img {
+      height: 70px;
+      width: 70px;
+      object-fit: contain;
+    }
+
+    .dropdown-menu .dropdown-menu {
+      margin-left: 0.7rem;
+      margin-right: 0.7rem;
+      margin-bottom: .5rem;
+    }
+    .nav-item {
+      padding: 10px;
+      margin: 0;
+    }
+    .dropdown-menu a {
+      text-align: left;
+    }
+    .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+    }
+    /* .search_form {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    } */
+    .form_index {
+      display:none;
+    }
+    #destination, #activities, #people {
+      width: 80%;
+    }
+    .search_form input 
+    {
+     width: 80%;
+    }
+    .search_button {
+      margin-top: 2%;
+      text-align: center;
+    }
+
+    #demo .carousel-item img {
+      height: 300px !important;
+    }
+    #demo .first_image img {
+      height: 300px !important;
+      object-fit: cover;
+    }
+    #demo .second_image img {
+      height: 140px !important;
+      object-fit: cover;
+      width: 100%;
+      padding-bottom: 25px;
+    }
+    #demo .carousel-caption {
+      position: absolute;
+      top: 30%;
+      transform: translateY(-50%);
+      z-index: 10;
+    }
+    .above_image {
+      left: 70%;
+    }
+    .above_image_package {
+      left: 70%;
+    }
+    .above_image_tour {
+      left: 48%;
+    }
+    .above_image_package_main {
+      top: 45%;
+      left: 55%;
+    }
+    .above_image_trekking_best {
+      left: 68%;
+    }
+    .activities_trekking {
+      left: 68%;
+    }
+    .activities_rafting {
+      left: 58%;
+    }
+    .owl_digitalyeti {
+      width: 100%;
+    }
+      .owl-nav {
+        width: 70vw;
+      }
+      .item {
+      height: 180px;
+      width: 180px;
+    }
+    .client_image {
+      display: none;
+    }
+    .item {
+      width: 100%;
+      height: 60%;
+    }
+    .counter_main_section {
+      display: none;
+    }
+  
+    .footer_second {
+      padding-left:18px !important;
+      margin:0 !important;
+    }
+    .footer_fourth iframe {
+      height: 200px;
+    }
+    .banner_nepal img {
+      height:300px;
+    }
+
+    .social_links_top {
+      display: none;
+    }
+    .nrb_exchange {
+      display: none;
+    }
+    .modal-content-1 {
+      width: 100%;
+    }
+
+  }
+  @media (max-width: 765px) {
+    .nav-item {
+      color: #fff !important;
+      font-size: 16px;
+      padding: 0;
+    }
+    .navbar-toggler {
+      height: 30px;
+      width: 35px;
+    }
+    .navbar-toggler-icon {
+      transform: scale(0.5);
+      margin-left: -10px;
+      margin-top: -5px;
+    }
+
+    #demo .first_image img {
+      border-bottom-right-radius: 20px;
+    }
+    #demo .second_image img {
+      display: none;
+    }
+    #demo .carousel-indicators {
+      margin-top: 10px;
+    }
+    .about_us_button {
+      margin-bottom: 5%;
+    }
+    .best_selling {
+      margin-top: 10%;
+    } 
+    .card_main {
+      margin-top: 4%;
+    }
+    .activities {
+      display: flex;
+      flex-direction: column;
+    }
+    .above_image {
+      left: 63%;
+    }
+    .above_image_trekking_best {
+      left: 63%;
+    }
+    .above_image_package_main {
+      top: 45%;
+      left: 70%;
+    }
+    .above_image_tour {
+      left: 63%;
+    }
+    .above_image_trekking {
+      left: 63%;
+    }
+    .activities_trekking {
+      left: 63%;
+    }
+    .activities_rafting {
+      left: 63%;
+    }
+    .owl-nav {
+      width: 90vw;
+    }
+    #main_documents .modal-content {
+      width: 100%;
+    }
+    .tab button {
+      width: 150px;
+    }
+  }
+  @media (max-width:510px) {
+    .associated_col {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+  }

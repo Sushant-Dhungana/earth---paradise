@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Destinations</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="top_nav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 top_left">
+                    <div class="social_links_top">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram " style="color:red"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter" style="color: #1DA1F2"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube" style="color:red"></i></a>
+                        <p><i class="fa-solid fa-phone" style="color: #000  ;"></i> &nbsp;+977-987654321</p>
+                        <p><i class="fa-solid fa-location-dot" style="color:rgb(71, 71, 239)"></i> &nbsp;Kamaladi,
+                            Kathmandu</p>
+                    </div>
+                </div>
+                <div class="col-md-6 top_right">
+                    <div class="top_right_links">
+                        <a href="https://www.immigration.gov.np/" class="news" target="_blank">Immigrations</a>
+                        <a href="https://www.nrb.org.np/forex/" class="nrb_exchange" target="_blank">Money Exchange
+                            Rate</a>
+                        <a href="" class="weather"><i class="fa-solid fa-sun"
+                                style="color: #FDB813;"></i>&nbsp;Weather<span>&nbsp;(Kathmandu : 30&deg;)</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/LOGO.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item "> <a class="nav-link" href="index.html">Home </a> </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Destinations </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href=""> Nepal &raquo; </a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="destinationnepaltour.html">Tours &raquo;</a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Manang &raquo;</a>
+                                                <ul class="submenu dropdown-menu">
+                                                    <li><a class="dropdown-item" href="individual.html">Annapurna Base Camp</a></li>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="destinationnepaltrekking.html">Trekking
+                                            &raquo;</a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Manang &raquo;</a>
+                                                <ul class="submenu dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Manang marsyangdi trek</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#"> Bhutan &raquo; </a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="destinationbhutantour.html">Tours &raquo;</a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Manang &raquo;</a>
+                                                <ul class="submenu dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="destinationbhutantrekking.html">Trekking
+                                            &raquo;</a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Manang &raquo;</a>
+                                                <ul class="submenu dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="fixeddeparture.html"> Fixed Departure</a></li>
+                    <li class="nav-item dropdown active" id="myDropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About</a>
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item" href="aboutus.html"> About Us</a></li>
+                            <li> <a class="dropdown-item" href="companyprofile.html"> Company Profile</a></li>
+                            <li><a class="dropdown-item" href="legaldocuments.html"> Legal Documents </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html"> Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="banner_nepal">
+        <img src="img/banner1.jpeg" alt="nepal_banner">
+        <div class="banner_text">
+            <h4>Legal Documents</h4>
+
+        </div>
+    </section>
+    <section class="legal_main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 legal_top">
+                    <p>We are fully dedicated to follow the legal procedures that are mandatory to our customers that
+                        are declared by Nepal Tourism Board (NTB) which includes insurance, safety, guidance, fooding
+                        and Lodging.</p>
+                    <h4>Legal Documents</h4>
+                    <div class="after_line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main_documents">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 image_column">
+                    <img class="myImages" id="myImg" src="img/legaldocs.png" alt="vat">
+                    <h6>Doc 1 : Our Pan</h6>
+                </div>
+                <div class="col-md-3 image_column">
+                    <img class="myImages" id="myImg" src="img/legaldocs.png" alt="tax">
+                    <h6>Doc 2 : Our Registration</h6>
+                </div>
+                <div class="col-md-3 image_column">
+                    <img class="myImages" id="myImg" src="img/legaldocs.png" alt="vat">
+                    <h6>Doc 3 : Our Tax Pay</h6>
+                </div>
+                <div class="col-md-3 image_column">
+                    <img class="myImages" id="myImg" src="img/legaldocs.png" alt="vat">
+                    <h6>Doc 4 : Our Revenue</h6>
+                </div>
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="associated_legal">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 legal_top">
+                    <h4>We Are Associated With</h4>
+                    <div class="after_line"></div>
+                </div>
+                <div class="col-md-12 associated_col">
+                    <img src="img/ntb.jpg" alt="ntb">
+                    <img src="img/pata.png" alt="ntb">
+                    <img src="img/ntb.jpg" alt="ntb">
+                    <img src="img/ntb.jpg" alt="ntb">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer_first">
+                    <img src="img/LOGO.png">
+                    <p>Tourism is travel for leisure, recreational and business purpose. Tourists can be defined as
+                        people who
+                        travel to and stay in places outside their usual surroundings for more than twenty-four hours
+                        and not more.
+                    </p>
+                </div>
+                <div class="col-md-3 footer_second">
+                    <h5>Quick Links</h5>
+                    <a href="">Home</a><br>
+                    <a href="">Destination</a><br>
+                    <a href="">Fixed Departure</a><br>
+                    <a href="">About Us</a><br>
+                    <a href="">Bolgs</a><br>
+                    <a href="">Gallery</a><br>
+                    <a href="">Contact Us</a><br>
+                    <a href="">Site Map</a><br>
+                </div>
+                <div class="col-md-3 footer_third">
+                    <h5>Contact Us</h5>
+                    <p><i class="fa-solid fa-phone-volume"></i>&nbsp; +977-987654321,<br>+977-987654321,</p>
+                    <p><i class="fa-solid fa-location-dot"></i>&nbsp; Kamaladi, Kathmandu</p>
+                    <p><i class="fa-regular fa-envelope"></i>&nbsp; info@travels.com</p>
+                    <h6>Associated With :</h6>
+                    <div class="associated_image">
+                        <img src="img/pata.png" alt="associate_image">
+                        <img src="img/ntb.jpg" alt="associate_image">
+                        <img src="img/pata.png" alt="associate_image">
+                        <img src="img/pata.png" alt="associate_image">
+                    </div>
+                    <div class="social_links">
+                        <a href=""><i class="fa-brands fa-square-facebook" style="color:#0497f2"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram " style="color:rgb(231, 107, 107)"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter" style="color: #1DA1F2"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube" style="color:red"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 footer_fourth">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3532.2516568057113!2d85.31897926512843!3d27.709515232003447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sonviro!5e0!3m2!1sen!2snp!4v1669283569767!5m2!1sen!2snp"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <hr>
+                <div class="col-md-12 footer_bottom">
+                    <p>© 2022 All Rights Reserved. Designed by <a href="">Onviro Tech Pvt. Ltd</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // create references to the modal...
+        var modal = document.getElementById('myModal');
+        // to all images -- note I'm using a class!
+        var images = document.getElementsByClassName('myImages');
+        // the image in the modal
+        var modalImg = document.getElementById("img01");
+        // and the caption in the modal
+        var captionText = document.getElementById("caption");
+
+        // Go through all of the images with our custom class
+        for (var i = 0; i < images.length; i++) {
+            var img = images[i];
+            // and attach our click listener for this image.
+            img.onclick = function (evt) {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+        }
+
+        var span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
