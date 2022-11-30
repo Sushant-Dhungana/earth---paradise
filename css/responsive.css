@@ -31,6 +31,9 @@
       margin-right: 0.7rem;
       margin-bottom: .5rem;
     }
+    .submenu {
+      margin-top: 1% !important;
+    }
     .nav-item {
       padding: 10px;
       margin: 0;
@@ -220,6 +223,9 @@
     }
     .location_map iframe {
       height: 250px;
+    }
+    #bookModal2 .modal-content {
+      width: 100%;
     }
   }
   @media (max-width:510px) {

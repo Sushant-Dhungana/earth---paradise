@@ -1,3 +1,28 @@
+.loader_bg {
+  position: fixed;
+  z-index: 99999999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.loader img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
 
 .navbar {
   background-color: #3c82ec;
@@ -512,43 +537,43 @@
   align-items: center;
   justify-content: center;
 }
-.client_review {
+#reviews .client_review {
   background: #ffffff;
   text-align: center;
   margin-top: 3%;
 }
-.client_review h4 {
+#reviews .client_review h4 {
   color: #f39c05;
 }
-.owl-nav button span {
+#reviews .owl-nav button span {
   font-size: 28px;
 }
 
-button.owl-prev, button.owl-next {
+#reviews button.owl-prev, button.owl-next {
   float: left;
   border: 1.5px solid #706f6c!important;
   background-color: #ffffff!important;
   width: 45px;
   border-radius: 50% !important;
 }
-button.owl-prev:hover {
+#reviews button.owl-prev:hover {
   color: rgb(255, 255, 255) !important;
   background-color: #9edeec !important;
 }
-button.owl-next:hover {
+#reviews button.owl-next:hover {
   color: rgb(255, 255, 255) !important;
   background-color: #9ae0f0 !important;
 }
-button.owl-next {
+#reviews button.owl-next {
   float: right;
 }
-.owl-nav {
+#reviews .owl-nav {
   width: 60vw;
   position: absolute;
   color: rgb(0, 0, 0);
 }
 
-.owl-carousel.owl-theme.owl-loaded.owl-drag {
+#reviews .owl-carousel.owl-theme.owl-loaded.owl-drag {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -558,7 +583,7 @@ background: #ffffff;
 padding: 1rem;
 border-radius: 10px;
 }
-.client_message i{
+#reviews .client_message i{
 color: #221e15;
 }
 .client_details {
@@ -909,6 +934,9 @@ object-fit: contain;
 }
 .companyprofile_content p{
 padding-top: 4px;
+text-align: justify;
+padding-left: 10px;
+padding-right: 10px;
 }
 .profile_subhead {
   text-align: center;
@@ -1152,7 +1180,7 @@ padding-top: 4px;
   #Gallery .modaltab {
     display: none;
     position: fixed;
-    z-index: 3;
+    z-index: 9999;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -1601,6 +1629,33 @@ padding-top: 4px;
   .readmore_button a:hover {
     background-color:#18dbcb;
     color: #3019BC;
+  }
+  .individual_blog_head {
+    padding-top: 2%;
+  }
+  .individual_blog_head h4 {
+    text-align: center;
+    color: #3019BC;
+  }
+  .blog_content {
+    margin-top: 2%;
+    text-align: center;
+  }
+  .blog_content h5 {
+    color: #3019BC;
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+  .blog_content img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .blog_content p {
+    text-align: justify;
+    margin-top: 2%;
   }
 
 
