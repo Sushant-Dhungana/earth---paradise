@@ -50,6 +50,9 @@
       flex-direction: column;
       gap: 5px;
     } */
+    .banner_nepal img {
+      height: 300px !important;
+    }
     .form_index {
       display:none;
     }
@@ -147,6 +150,10 @@
     .modal-content-1 {
       width: 100%;
     }
+    #bookModal2 .modal-content-2 {
+      width: 100%;
+    }
+
 
   }
   @media (max-width: 765px) {
@@ -224,9 +231,7 @@
     .location_map iframe {
       height: 250px;
     }
-    #bookModal2 .modal-content {
-      width: 100%;
-    }
+
   }
   @media (max-width:510px) {
     .associated_col {

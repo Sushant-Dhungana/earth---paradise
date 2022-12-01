@@ -2,6 +2,7 @@
   position: fixed;
   z-index: 99999999;
   background: #fff;
+  opacity: 0.7;
   width: 100%;
   height: 100%;
 }
@@ -285,6 +286,9 @@
 #demo .carousel-indicators [data-bs-target] {
   background-color: #2846f1 !important;
   border: 1px solid black;
+}
+.about_last p {
+  text-align: justify;
 }
 .best_selling {
   margin-top: 5%; 
@@ -840,14 +844,16 @@ color: #897F7F;
   color: #E91919;
 }
 .news:hover {
-  color: rgb(181, 100, 100);
+  color: #E91919;
+  transform: scale(1.1);
 }
 .nrb_exchange {
   color: rgb(7, 181, 7);
   
 }
 .nrb_exchange:hover {
-  color: #85bb65;
+  color: rgb(7, 181, 7);
+  transform: scale(1.1);
 }
 .weather {
   color: #1e90ff;
@@ -929,7 +935,7 @@ object-fit: contain;
 }
 .companyprofile_head h3 {
   color: #3019BC;
-  border-left: 3px solid #3019BC;
+  border-left: 3px solid #f01f08;
   padding: 8px;
 }
 .companyprofile_content p{
@@ -1065,6 +1071,9 @@ padding-right: 10px;
 }
 .individual_main {
   margin-top: 2%;
+}
+.individual_main p {
+  text-align: justify;
 }
 .trip_facts_head {
   text-align: center;
@@ -1326,6 +1335,19 @@ padding-right: 10px;
     text-decoration: none;
     cursor: pointer;
   }
+  .modal-content-1, .modal-content-2 {
+    animation-name: zoommodal1;
+    animation-duration: 0.9s;
+  }
+  
+  @keyframes zoommodal1 {
+    from {
+      transform: scale(0)
+    }
+    to {
+      transform: scale(1)
+    }
+  }
   .book_head {
     text-align: center;
 
@@ -1430,7 +1452,7 @@ padding-right: 10px;
     color:#3019BC;
   }
   .gallery_head p {
-    margin-top: -25px;
+    margin-top: -2%;
     margin-bottom: 2%;
   }
   .image_column_gallery {
