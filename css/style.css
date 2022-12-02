@@ -2,11 +2,10 @@
   position: fixed;
   z-index: 99999999;
   background: #fff;
-  opacity: 0.7;
+  opacity: 0.8;
   width: 100%;
   height: 100%;
 }
-
 .loader {
   height: 100%;
   width: 100%;
@@ -16,7 +15,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .loader img {
@@ -760,7 +758,7 @@ footer {
 }
 .banner_nepal img {
   width: 100%;
-  height:400px;
+  height:450px;
   object-fit:cover;
 }
 .banner_nepal::after {
@@ -776,7 +774,7 @@ footer {
   position: absolute;
   top: 50%;
   left: 10%;
-  color: rgb(199, 196, 196);
+  color: rgb(221, 213, 213);
   z-index: 2;
 }
 .nepal_trekking_text {
