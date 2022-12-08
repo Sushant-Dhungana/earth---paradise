@@ -171,14 +171,17 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-.search_button button {
+.search_button a {
   border: 2px solid #000;
   background-color: #3c82ec;
   border-radius: 10px;
-  height: 40px;
-  width: 100px;
+  padding: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-decoration: none;
+  color: #fff;
 }
-.search_button button:hover {
+.search_button a:hover {
   background-color: #000;
   color: #fff;
 }
@@ -1676,6 +1679,50 @@ padding-right: 10px;
   .blog_content p {
     text-align: justify;
     margin-top: 2%;
+  }
+  .form_searched {
+    text-align: center;
+  }
+  .searched_form {
+    margin-top: 10%;
+    background-color: #2846f1;
+    border-radius: 10px;
+  }
+  #searched_destination, #searched_activities, #searched_people, #searched_price {
+    width: 70%;
+    height: 40px;
+    border: 1px solid #736f6f;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 5%;
+  }
+  .searched_button {
+    margin-top: 3%;
+    padding-bottom: 5%;
+  }
+  .searched_button button {
+    background-color: #3C82EC;
+    color: #fff;
+    width: 100px;
+    border: none;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+  }
+  .searched_button button:hover {
+    background-color:#18dbcb;
+  }
+  .searched_cards {
+    margin-top: 2% !important;
+  }
+  .searched_cards .index_card {
+    width: 90%;
+  }
+  .searched_cards .above_image_package {
+    left: 80%;
+  }
+  .searched_cards .above_image {
+    left: 60%;
   }
 
 

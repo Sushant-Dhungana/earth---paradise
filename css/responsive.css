@@ -153,6 +153,13 @@
     #bookModal2 .modal-content-2 {
       width: 100%;
     }
+    .searched_cards .index_card {
+      width: 100%;
+    }
+    .searched_cards .above_image_package {
+      left: 60%;
+    }
+
 
 
   }
@@ -231,6 +238,15 @@
     .location_map iframe {
       height: 250px;
     }
+    .searched_form {
+      margin-top: 3%;
+    }
+    .searched_cards {
+      margin-top: 5% !important;
+    }
+    .searched_cards .above_image_package {
+      left: 70%;
+    }
 
   }
   @media (max-width:510px) {
@@ -240,5 +256,8 @@
       gap: 20px;
       justify-content: center;
       align-items: center;
+    }
+    .searched_cards .index_card{
+    width: 100% !important;
     }
   }
