@@ -25,7 +25,7 @@
 
 .navbar {
   background-color: #3c82ec;
-  height: 75px;
+  height: 70px;
 }
 
 .navbar-brand {
@@ -43,10 +43,8 @@
 }
 .nav-item {
   color: #fff !important;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
-  margin-left: 30px;
-  margin-right: 30px;
 }
 
 .nav-item a {
@@ -57,7 +55,8 @@
   color: #000 !important;
 }
 .navbar-nav {
-  margin-left: 7%;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-item .submenu {
@@ -102,6 +101,20 @@
   background-color: #fff !important;
   margin-right: 15px;
 }
+.collapse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-nav .nav-link{
+  margin-left: 15px;
+  margin-right: 20px;
+}
+/* .collapse li 
+{
+  margin-right: 20px;
+  margin-left: 20px;
+} */
 .carousel-item img {
   height: 630px;
   object-fit: cover;
@@ -170,6 +183,20 @@
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
+}
+select:focus {
+  outline: none !important;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 0 10px #444545;
+}
+
+input:focus {
+  outline: none !important;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 0 10px #3f4040;
+}
+option[value=""][disabled] {
+  display: none;
 }
 .search_button a {
   border: 2px solid #000;
@@ -808,7 +835,15 @@ color: #897F7F;
   margin-bottom: 3%;
 }
 .top_left {
-  text-align: center;
+  align-items: center;
+  justify-content: left;
+  padding-left: 3% !important;
+}
+.top_left h6 {
+  color: #9c9999;
+}
+.top_left h6 span {
+  color: #ee0000
 }
 .social_links_top {
   display: flex;
