@@ -44,7 +44,7 @@
 .nav-item {
   color: #fff !important;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .nav-item a {
@@ -71,11 +71,10 @@
   left: auto;
 }
 .dropdown-menu {
-  background-color: rgb(214, 226, 226) !important;
+  background-color: rgb(245, 218, 218) !important;
 }
-
 .dropdown-menu > li a:hover {
-  background-color: #42659a;
+  background-color: #3c82ec;
   color: #fff !important;
 }
 
@@ -95,7 +94,7 @@
   color: rgb(216, 201, 201) !important;
 }
 .dropdown-menu a {
-  text-align: center;
+  text-align: left;
 }
 .navbar-toggler {
   background-color: #fff !important;
@@ -197,6 +196,11 @@ input:focus {
 }
 option[value=""][disabled] {
   display: none;
+}
+textarea:focus {
+  outline: none !important;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 0 10px #3f4040;
 }
 .search_button a {
   border: 2px solid #000;
@@ -835,12 +839,14 @@ color: #897F7F;
   margin-bottom: 3%;
 }
 .top_left {
-  align-items: center;
-  justify-content: left;
   padding-left: 3% !important;
 }
 .top_left h6 {
   color: #9c9999;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-top: 2px;
 }
 .top_left h6 span {
   color: #ee0000
