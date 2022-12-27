@@ -19,7 +19,8 @@
 
 @media (max-width: 991px) {
   .top_left {
-    text-align: center;
+   display: flex;
+   justify-content: center;
   }
   .collapse {
     display: flex;

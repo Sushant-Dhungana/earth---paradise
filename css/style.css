@@ -843,9 +843,6 @@ color: #897F7F;
 }
 .top_left h6 {
   color: #9c9999;
-  display: flex;
-  align-items: center;
-  justify-content: left;
   padding-top: 2px;
 }
 .top_left h6 span {
@@ -853,7 +850,7 @@ color: #897F7F;
 }
 .social_links_top {
   display: flex;
-  gap: 25px;
+  gap:  25px;
   justify-content: center;
   align-items: center;
 }
@@ -864,7 +861,7 @@ color: #897F7F;
   padding: 0;
   margin: 0;
   color: #918d8d;
- margin-left: 4%;
+ margin-left: 2%;
  padding-left: 10px;
   border-left: 1px solid #b7b0b0;
   font-size: 14px;
