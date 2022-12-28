@@ -172,9 +172,16 @@
     .searched_cards .above_image_package {
       left: 60%;
     }
-
-
-
+    .second_image_last {
+      margin-top: -30px;
+      height: 100px !important;
+      border-bottom-right-radius: 20px !important;
+    }
+    .second_image_last .below_image{
+      margin-top: -30px;
+      height: 100px !important;
+      border-bottom-right-radius: 20px !important;
+    }
 
   }
   @media (max-width: 765px) {
@@ -261,8 +268,11 @@
     .searched_cards .above_image_package {
       left: 70%;
     }
+    .second_image_last img {
+      display: none;
 
   }
+}
   @media (max-width:510px) {
     .associated_col {
       display: flex;

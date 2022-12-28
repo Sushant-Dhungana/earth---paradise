@@ -1,3 +1,8 @@
+.main-layout {
+  font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Signika', sans-serif;
+}
 .loader_bg {
   position: fixed;
   z-index: 99999999;
@@ -282,6 +287,13 @@ textarea:focus {
   margin-bottom: 25px;
 }
 .second_image .below_image {
+  border-bottom-right-radius: 20px;
+}
+.second_image_last img {
+  height: 225px !important;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 25px;
   border-bottom-right-radius: 20px;
 }
 #demo .carousel-indicators {
@@ -636,8 +648,7 @@ text-align: center;
 height: 60px !important;
 width: 60px!important;
 border-radius: 50%;
-margin-left: 50%;
-transform: translateX(-50%);
+margin: auto;
 }
 .newsletter {
   background: #3C82EC;
