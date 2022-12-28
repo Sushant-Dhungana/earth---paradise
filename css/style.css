@@ -48,7 +48,7 @@ font-family: 'Signika', sans-serif;
 }
 .nav-item {
   color: #fff !important;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
 }
 
@@ -108,7 +108,7 @@ font-family: 'Signika', sans-serif;
 .collapse {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .navbar-nav .nav-link{
   margin-left: 15px;
@@ -458,7 +458,8 @@ textarea:focus {
 .above_image_package p {
   color: #fff;
   font-weight: bold;
-  padding-top: 10px;
+  padding: 5px;
+  padding-top: 15px;
 }
 .view_more_button {
   text-align: right;
@@ -484,6 +485,27 @@ textarea:focus {
 }
 .popular_heading h4 {
   color: #3019BC;
+}
+.junglesafari_main {
+  margin-top: 3%;
+}
+.safari_heading {
+  text-align: center;
+}
+.safari_heading h4 {
+  color: #3019BC;
+}
+.safari_content {
+  padding-top: 4%;
+  background-color: #3c82ec;
+text-align: center;
+color: #164d0c;
+}
+.safari_content h6 {
+  width:40%;
+  margin: auto;
+  margin-top: 3%;
+  padding-bottom: 4%;
 }
 .our_activities {
   margin-top: 3%;
@@ -553,7 +575,8 @@ textarea:focus {
 .above_image_package_main p {
   color: #fff;
   font-weight: bold;
-  padding-top: 10px;
+  padding:5px;
+  padding-top: 15px;
 }
 .activities_trekking {
   position: absolute;

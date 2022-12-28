@@ -54,8 +54,12 @@
     .dropdown-menu a {
       text-align: left;
     }
+    .carousel_package .carousel-item {
+      height: 300px;
+      object-fit: cover;
+    }
     .carousel-item img {
-      height: 400px;
+      height: 300px;
       object-fit: cover;
     }
     /* .search_form {
@@ -89,7 +93,7 @@
       object-fit: cover;
     }
     #demo .second_image img {
-      height: 140px !important;
+      height: 172px !important;
       object-fit: cover;
       width: 100%;
       padding-bottom: 25px;
@@ -270,7 +274,10 @@
     }
     .second_image_last img {
       display: none;
-
+  }
+  .safari_content h6 {
+    width:100%;
+    text-align: justify;
   }
 }
   @media (max-width:510px) {
