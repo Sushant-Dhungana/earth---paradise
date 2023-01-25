@@ -1,6 +1,6 @@
 @media (max-width:1500px){
   .navbar-nav .nav-link{
-    margin-left: 1px;
+    margin-left: 2px;
     margin-right: 2px;
   }
 }
@@ -291,4 +291,8 @@
     .searched_cards .index_card{
     width: 100% !important;
     }
+    .button_safari button {
+      position: absolute;
+      top: 45%;
+      left: 35%;
   }
