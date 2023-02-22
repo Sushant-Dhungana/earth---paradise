@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
@@ -10,11 +9,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Book</title>
+  <title>Earth Paradise</title>
+  <link rel="stylesheet" href="owl/owl.carousel.min.css" />
+  <link rel="stylesheet" href="owl/owl.theme.default.min.css" />
+  <script src="owl/jquery.min.js"></script>
+  <script src="owl/owl.carousel.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body class="main-layout">
   <div class="loader_bg">
@@ -24,6 +28,9 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 top_left">
+          <h6><span>Earth's Paradise</span> Treks & Expeditions</h6>
+        </div>
+        <div class="col-md-6 top_right">
           <div class="social_links_top">
             <a href=""><i class="fa-brands fa-square-facebook"></i></a>
             <a href=""><i class="fa-brands fa-instagram " style="color:red"></i></a>
@@ -31,14 +38,6 @@
             <a href=""><i class="fa-brands fa-youtube" style="color:red"></i></a>
             <p><i class="fa-solid fa-phone" style="color: #000  ;"></i> &nbsp;+977-987654321</p>
             <p><i class="fa-solid fa-location-dot" style="color:rgb(71, 71, 239)"></i> &nbsp;Kamaladi, Kathmandu</p>
-          </div>
-        </div>
-        <div class="col-md-6 top_right">
-          <div class="top_right_links">
-            <a href="https://www.immigration.gov.np/" class="news" target="_blank">Immigrations</a>
-            <a href="https://www.nrb.org.np/forex/" class="nrb_exchange" target="_blank">Money Exchange Rate</a>
-            <a href="" class="weather"><i class="fa-solid fa-sun"
-                style="color: #FDB813;"></i>&nbsp;Weather<span>&nbsp;(Kathmandu : 30&deg;)</span></a>
           </div>
         </div>
       </div>
@@ -55,47 +54,21 @@
         <ul class="navbar-nav">
           <li class="nav-item"> <a class="nav-link" href="index.html">Home </a> </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Destinations </a>
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Trekking </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href=""> Nepal &raquo; </a>
+              <li><a class="dropdown-item" href="FarWestRegion.html">Far West Region</a>
                 <ul class="submenu dropdown-menu">
-                  <li><a class="dropdown-item" href="destinationnepaltour.html">Tours &raquo;</a>
+                  <li><a class="dropdown-item" href="packages.html">Khaptad National Park</a>
                     <ul class="submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Manang &raquo;</a>
-                        <ul class="submenu dropdown-menu">
-                          <li><a class="dropdown-item" href="individual.html">Annapurna Base Camp</a></li>
-                        </ul>
+                      <li><a class="dropdown-item" href="individual.html">Khaptad National Park (3N/2D)</a>
+                      </li>
+                      <li><a class="dropdown-item" href="individual.html">Khaptad National Park (4N/3D)</a>
                       </li>
                     </ul>
                   </li>
-                  <li><a class="dropdown-item" href="destinationnepaltrekking.html">Trekking &raquo;</a>
+                  <li><a class="dropdown-item" href="destinationnepaltrekking.html">Sukla Panta National Park</a>
                     <ul class="submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Manang &raquo;</a>
-                        <ul class="submenu dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Manang marsyangdi trek</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li><a class="dropdown-item" href="#"> Bhutan &raquo; </a>
-                <ul class="submenu dropdown-menu">
-                  <li><a class="dropdown-item" href="destinationbhutantour.html">Tours &raquo;</a>
-                    <ul class="submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Manang &raquo;</a>
-                        <ul class="submenu dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a class="dropdown-item" href="destinationbhutantrekking.html">Trekking &raquo;</a>
-                    <ul class="submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Manang &raquo;</a>
-                        <ul class="submenu dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
-                        </ul>
+                      <li><a class="dropdown-item" href="#">Sukla Panta Natinal Park (3D/4N)</a>
                       </li>
                     </ul>
                   </li>
@@ -103,18 +76,71 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="fixeddeparture.html"> Fixed Departure</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Nature/Culture Tour </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href=""> Far west Nepal tour</a>
+                <ul class="submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="destinationnepaltour.html">Package1</a>
+                    <ul class="submenu dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Individual Package</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="destinationnepaltrekking.html">Package2</a>
+                    <ul class="submenu dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Individual Packages</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Adventure</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="junglesafari.html"> Jungle Safari</a></li>
+                <li><a class="dropdown-item" href="fixeddeparture.html">Fixed Departure</a>
+              </li>
+              <li><a class="dropdown-item" href=""> Far west Nepal tour</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Special & Research Trips</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="">Far west Nepal tour </a>
+              </li>
+            </ul>
+          </li>
           <li class="nav-item dropdown" id="myDropdown">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About</a>
             <ul class="dropdown-menu">
               <li> <a class="dropdown-item" href="aboutus.html"> About Us</a></li>
+              <li> <a class="dropdown-item" href="aboutNepal.html"> About Nepal</a></li>
               <li> <a class="dropdown-item" href="companyprofile.html"> Company Profile</a></li>
               <li><a class="dropdown-item" href="legaldocuments.html"> Legal Documents </a></li>
+              <li><a class="dropdown-item" href="blogs.html"> Blogs </a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="blogs.html"> Blogs</a></li>
-          <li class="nav-item"><a class="nav-link" href="gallery.html"> Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html"> Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item dropdown" id="myDropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Travel Info</a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" href="https://www.immigration.gov.np/page/visa-on-arrival" target="_blank"> Immigration Visa</a></li>
+              <li> <a class="dropdown-item" href="http://www.mfd.gov.np/weather/#forecasts" target="_blank"> Weather Link</a></li>
+              <li> <a class="dropdown-item" href="trekkingseasons.html">Trekking Seasons</a></li>
+              <li><a class="dropdown-item" href="travelequipments.html">Travel Equipments</a></li>
+              <li><a class="dropdown-item" href="altitudesikness.html">Altitude Sickness</a></li>
+              <li><a class="dropdown-item" href="dosanddont.html">Do's & Don't</a></li>
+              <li><a class="dropdown-item" href="travellinginnepal.html">Travelling In Nepal</a></li>
+              <li><a class="dropdown-item" href="completeguide.html">Complete Guide</a></li>
+              <li><a class="dropdown-item" href="faqs.html">FAQ's</a></li>
+              <li><a class="dropdown-item" href="https://www.nrb.org.np/" target="_blank">Exchange Rates</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>

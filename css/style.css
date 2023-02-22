@@ -1026,7 +1026,7 @@ footer {
   top: 50%;
   left: 10%;
   color: rgb(221, 213, 213);
-  z-index: 2;
+  z-index: 1;
 }
 
 .nepal_trekking_text {
@@ -2132,4 +2132,336 @@ h6 {
 
 .searched_cards .above_image {
   left: 60%;
+}
+.nepal_history {
+  text-align: center;
+  padding-top: 3%;
+}
+.nepal_history p {
+  text-align: justify;
+}
+.destinations_history {
+  margin-top: 2% !important;
+}
+.destinations_history p {
+  text-align: justify;
+}
+.nepal_image {
+  margin-top: 2% !important;
+}
+.nepal_image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.safari_content {
+  margin-top: 2% !important;
+}
+.safari_content h4 {
+  text-align: center;
+}
+.safari_content p{
+  text-align: justify;
+  color: #4e4e50;
+}
+.safari_packages {
+  margin-top: 2% !important;
+  color: #3019BC;
+}
+.safari_packages h4 {
+  text-align: center;
+}
+.packages_individual {
+  margin-top: 2% !important;
+}
+.packages_individual h4 {
+  text-align: center;
+  color: #3019BC;
+}
+.faq_main {
+  margin-top: 2% !important;
+}
+.faqs_head {
+  text-align: center;
+  color: #3019BC;
+}
+.faqs_content {
+  margin-top: 2% !important;
+  background-color: #8fb5ec;
+  border-radius: 10px;
+}
+.faqs_content h5 {
+padding-left: 10px;
+padding-top: 10px;
+font-weight: 600;
+}
+.faqs_content p {
+  text-align: justify;
+  padding: 10px;
+  padding-left: 20px;
+}
+.trekking_seasons {
+  margin-top: 2%;
+}
+.trekking_head {
+  text-align: center;
+}
+.trekking_head h4 {
+  color: #3019BC;
+}
+.trekking_head p {
+  text-align: justify;
+  color: #646262;
+}
+.season_column {
+  margin-top: 2%;
+}
+.season_content {
+  padding-top: 5px;
+}
+.season_content h4 {
+  text-align: center;
+}
+.season_content p {
+  text-align: justify;
+}
+.image_season img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.season_content, .image_season img {
+  margin-top: 2%;
+}
+.equipment_head h4{
+  text-align: center;
+  margin-top: 2%;
+}
+.equipment_head p {
+  text-align: justify;
+  color: #606063;
+}
+.equipments_all {
+  margin-top: 1%;
+}
+.after_line_front {
+  width: 10%;
+  border: 1px solid #ee0000;
+}
+.equipments_all p {
+  padding: 15px;
+  text-align: justify;
+}
+.equipments_image img {
+  height: 200px;
+  width: 100%;
+}
+.altitude_main {
+  margin-top: 2%; 
+}
+.altitude_head h4{
+  text-align: center;
+  color: #3019BC;
+}
+.altitude_head p {
+  text-align: justify;
+  padding-top: 10px;
+}
+.altitude_all {
+  margin-top: 2%;
+}
+.altitude_all .equipments_main p {
+  padding-top: 12px;
+  text-align: justify;
+}
+.dos_main {
+  margin-top: 2%;
+}
+.dos_all {
+  margin-top: 2%;
+}
+.dos_all .equipments_main p {
+  padding-top: 12px;
+  text-align: justify;
+}
+.travelling_main {
+  margin-top: 2%;
+}
+.travelling_head h4 {
+  text-align: center;
+  color: #3019BC;
+}
+.travelling_head p {
+  text-align: justify;
+  padding-top: 10px;
+}
+.after_line_travelling {
+  width: 10%;
+  border: 1px solid #d11212;
+}
+.travelling_main p{
+  padding-top: 15px;
+  text-align: justify;
+}
+.album .row > .album .column {
+  padding: 0 8px;
+}
+.album .img_map {
+  width: 100%;
+  height: 400px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.album .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.album .column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.album .modal1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.album .modal-content1 {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+  z-index: 9999 !important;
+}
+
+/* The Close Button */
+.album .close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.album .close:hover,
+.album .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.album .mySlides {
+  display: none;
+}
+
+.album  .cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.album  .prev,
+.album .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.album .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.album .prev:hover,
+.album .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.album .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.album img {
+  margin-bottom: -4px;
+}
+
+.album .caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.album .demo {
+  opacity: 0.6;
+}
+
+.album .active,
+.album .demo:hover {
+  opacity: 1;
+}
+ .demo img {
+  height: 200px !important;
+  object-fit: cover;
+}
+.album_images img {
+  border-radius: 10px;
+}
+
+.album img.hover-shadow {
+  transition: 0.3s;
+}
+
+.album .hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s;
+}
+.mySlides img {
+  height: 600px !important;
+  object-fit: cover;
+}
+.column img {
+  height: 200px !important;
+  object-fit: cover;
+}
+.gallery_image h6 {
+  text-align: center;
+  color: #39383a;
+  margin-top: 2%;
+  font-weight: 500;
 }
